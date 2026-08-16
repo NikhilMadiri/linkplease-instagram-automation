@@ -1,1 +1,5 @@
-"""Database model package; models will be added in later phases."""
+"""Domain model exports and metadata registration."""
+
+from app.db.models.domain import DMRecord, DMStatus, ProcessedEvent, Rule
+
+__all__ = ["DMRecord", "DMStatus", "ProcessedEvent", "Rule"]
